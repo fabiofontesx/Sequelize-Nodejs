@@ -9,23 +9,23 @@ API construída com intuíto de aprender como funciona a integração do NodeJS 
 
 ## Estrutura do projeto
 
- -  src
-	  - config 
-				  - database.js -> Script de configuração de conexão com DB
-	  - controllers
-				  - AddressController.js -> Lida com as requisições /user/user_id/addressess
-				  - ReportController.js -> Lida com as requisições /report
-				  - TechController.js -> Lida com as requisições /user/user_id/techs
-				  - UserController.js -> -> Lida com as requisições /users
-	  - database 
-			  - index.js ->	Inicializa os models do banco e suas respectivas associações
-		  - migrations -> Pasta que contém todas as migrations da aplicação
-	 - model
-			 - Address -> Modelo de endereço
-			 - Techs -> Modelo de tecnologias
-			 - User -> Modelo de usuários
-	- routes.js -> Mapeamento de todas rotas da aplicação, designa a rota para seu devido controller
-	- server.js -> Main da aplicação, inicializa o servidor na porta 3300
+ *  src
+	  * config 
+		* database.js -> Script de configuração de conexão com DB
+	  * controllers
+		* AddressController.js -> Lida com as requisições /user/user_id/addressess
+		* ReportController.js -> Lida com as requisições /report
+		* TechController.js -> Lida com as requisições /user/user_id/techs
+	  	* UserController.js -> -> Lida com as requisições /users
+	  * database 
+		* index.js ->	Inicializa os models do banco e suas respectivas associações
+		* migrations -> Pasta que contém todas as migrations da aplicação
+	 * model
+		* Address -> Modelo de endereço
+		* Techs -> Modelo de tecnologias
+		* User -> Modelo de usuários
+	* routes.js -> Mapeamento de todas rotas da aplicação, designa a rota para seu devido controller
+	* server.js -> Main da aplicação, inicializa o servidor na porta 3300
 			  
 
 ## Execução do projeto
